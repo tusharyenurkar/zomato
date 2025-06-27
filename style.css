@@ -1,0 +1,591 @@
+/* common css */
+ul li {
+  list-style-type: none;
+}
+
+/* end common css */
+
+.main-div {
+  width: 100%;
+  height: 500px;
+  border: 1px solid gray;
+  background-image: url(img/zomato2.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#top-container {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+.nightlife-text {
+  margin-left: 60px;
+}
+
+.dining-text {
+  color: black
+}
+
+#order-col {
+  margin-top: 50px;
+}
+
+.app-para {
+  color: transparent;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding:10px
+}
+
+.dining {
+  font-weight: bold;
+  margin-left: 40px;
+  color: black
+}
+
+#collection-img {
+  width: 270px;
+  height: 320px
+}
+.link1 a:hover{color:red;text-decoration:none;}
+.collection-para a:hover{color:red;text-decoration: none;}
+.panel-default a:hover{color:red ;text-decoration:none;}
+
+.order-on {
+  text-align: center;
+  font-size: 18px;
+  color: #aaa
+}
+
+.order-online {
+  color: black;
+  font-weight: bold;
+}
+
+.order-online a:hover {color:red;text-decoration: none;}
+.dining a:hover {color:red;text-decoration: none}
+.nightlife a:hover {color:red;text-decoration: none}
+
+.nightlife {
+  color: black;
+  margin-left: 63px
+}
+
+.collection {
+  font-weight: bold;
+  font-size: 38px;
+  margin-left: 13px
+}
+
+.collection-text {
+  font-size: 24 px
+}
+
+#collection-row {
+  margin-top: 150px;
+  margin-bottom: 160px
+}
+
+#collection-div {
+  margin-top: 40px
+}
+
+#collection-bg {
+  margin-top: 120px
+}
+
+.localities-heading {
+  margin-bottom: 60px;
+  margin-left: 10px
+}
+
+#localities-link {
+  padding: 24px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#localities-icon {
+  float: right;
+}
+
+#popular-jumbotron {
+  background-color: #FFFBF7;
+  margin-top: 100px
+}
+
+.footer-img {
+  width: 120px;
+
+}
+
+.search-input a:focus {
+  outline: none;
+}
+
+
+#search-input a:focus{
+  outline: none;
+}
+
+
+.footer-img1 {
+  width: 120px;
+  margin-top: 5px
+}
+
+.app-text {
+  font-weight: bold
+}
+
+#email-radio {
+  float: left;margin-top:5px
+}
+
+#email-lable {
+  float: left;
+  font-size: 20px;margin-left:8px 
+}
+.localities-link a:hover{color:red;text-decoration: none;}
+
+#phone-radio {
+  margin-left: 80px
+}
+
+#phone-lable {
+  font-size: 20px
+}
+
+#app-button {
+  padding: 12px 29px
+}
+
+.explore-heading {
+  margin-bottom: 30px;
+  font-weight: bold
+}
+
+.explore-heading {
+  font-weight: bold;
+  padding: 25px
+}
+
+#explore-icon {
+  float: right
+}
+
+#footer {
+  background-color: aliceblue;
+  padding-top: 40px
+}
+
+.footer-heading {
+  margin-left: 90px;
+  margin-bottom: 70px;
+  font-weight: bold
+}
+
+.banner-col {
+  margin-left: auto
+}
+
+.footer-para {
+  border-color: gray;
+  margin-top: 130px
+}
+
+.google-play {
+  margin-left: 33px;
+  width: 110px
+}
+
+#explore {
+  margin-top: 100px;
+  margin-bottom: 100px
+}
+
+#footer-button {
+  width: 120px;
+  float: left;
+  margin-left: 50px
+}
+
+#food1 {
+  border-radius: 15px;
+  width: 350px
+}
+
+.wraper {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 500px;
+}
+
+#top-col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.localities-lable {
+  color: black
+}
+
+.collection-link {
+  color: white;
+  margin-top: 120px
+}
+
+.test:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 20em;
+  height: 20em;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.bg-text {
+
+  /* Fallback color */
+
+  /* Black w/opacity/see-through */
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  z-index: 2;
+  width: 80%;
+
+  text-align: center;
+  border: none
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.collection-para {
+  margin-left: 130px;
+  color: red
+}
+
+.search-input {
+  margin: auto;
+  display: block;
+
+}
+
+.app-p {
+  padding: 10px 90px 10px 90px
+}
+
+/* Responsive for mobile */
+
+@media only screen and (max-width: 500px) {
+  #collection-img {
+    width: 100%;
+  }
+
+  .bg-text img {
+    width: 100%;
+  }
+
+  .order-online {
+    font-size: 12px;
+  }
+
+  .collection {
+    font-size: 15px
+  }
+
+  .navbar-container input[type="checkbox"]:checked~.logo {
+    display: none;
+  }
+
+  #collection-icon {
+    float: right
+  }
+  #search-input{width:auto}
+}
+
+/*end Responsive for mobile */
+
+
+.app-p {
+  margin: auto;
+  padding: 10px 60px 10px 60px;
+  margin-top: 5px
+}
+
+#zomato-about {
+  text-align: center;
+}
+
+.darken-grey-text {
+  color: #2E2E2E;
+}
+
+.zomato {
+  margin-left: 100px
+}
+
+#top-row {
+  margin-right: 0px
+}
+
+.banner {
+  width: 400px
+}
+
+#collection-row {
+  margin-right: 0px;
+}
+
+.collection-all {
+  color: red
+}
+
+.collection-icon {
+  float: right
+}
+
+#popular-jumbotron {
+  margin-right: 0px
+}
+
+.popular-app {
+  width: 230px;
+  height: 400px
+}
+
+.play {
+  width: 120px
+}
+
+.map {
+  border: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 350px
+}
+
+.social {
+  width: 20px;
+  height: 26px
+}
+
+.social1 {
+  width: 20px;
+  height: 25px
+}
+
+#social2 {
+  width: 20px;
+  height: 26px
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.navbar {
+  width: 100%;
+  background: transparent;
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.logo {
+
+  font-size: 25px;
+  margin-right: 550px
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  font-size: 16px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: red;
+  text-decoration: none
+}
+
+#search-input{width:680px}
+
+
+/* responsive navbar */
+@media (max-width: 768px) {
+
+  .navbar {
+    opacity: 0.95;
+  }
+
+  .navbar-container input[type="checkbox"],
+  .navbar-container .hamburger-lines {
+    display: block;
+  }
+
+  .navbar-container {
+    display: block;
+    position: relative;
+    height: 64px;
+  }
+
+  .navbar-container input[type="checkbox"] {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .navbar-container .hamburger-lines {
+    display: block;
+    height: 28px;
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbar-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+  }
+
+  .navbar-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .navbar-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar .menu-items {
+    padding-top: 100px;
+    background: black;
+    height: 100vh;
+    max-width: 300px;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    padding-left: 40px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 5px 0px 10px 0px #aaa;
+    overflow: scroll;
+  }
+
+  .navbar .menu-items li {
+    margin-bottom: 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .logo {
+
+    top: 10px;
+    right: 55px;
+    font-size: 2.5rem;
+    margin-right: 550px; 
+  }
+
+  .navbar-container input[type="checkbox"]:checked~.menu-items {
+    transform: translateX(0);
+  }
+
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+
+}
+
+/* end responnsive navbar */
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+  #collection-img {
+    width: 100%;
+  }
+
+  .bg-text img {
+    width: 100%;
+  }
+  .collection-para{margin-left:auto}
+ 
+  #food1{width:200px}
+
+}
